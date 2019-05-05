@@ -930,6 +930,9 @@ box-shadow: 0px 15px 11px -11px rgba(0,0,0,0.75);
 .photography_description{
     color: #862d86;
 }
+.caption{
+	background-color: #b3b3ff;
+}
 .caption h5{
 	color:red;
 	text-align: center;
