@@ -940,3 +940,10 @@ box-shadow: 0px 15px 11px -11px rgba(0,0,0,0.75);
 .caption p{
 	text-align: center;
 }
+.contact-info p{
+	color:red;
+	padding-left:50%;
+	font-size: 13px;
+	font-weight: bold;
+}
+
