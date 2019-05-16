@@ -1,9 +1,4 @@
-/*
-    Theme Name: MyResume
-    Theme URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-*/
+
 /* --- General --- */
 body {
 	font-family:'Montserrat',sans-serif;
@@ -23,7 +18,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a,a:hover {
-	color:#92DD03 ;
+	color:#ff9900 ;
 	text-decoration: none;
 }
 img {max-width: 100%;}
@@ -86,7 +81,7 @@ img {max-width: 100%;}
 .navbar.navbar-inverse.navbar-static-top {
 	margin:0px auto;
 	background:none;
-	color:#92DD03;
+	color:#ff9900;
 	border:none;
 	font-family:'Open Sans',sans-serif;
 	font-size:14px;
@@ -114,11 +109,11 @@ img {max-width: 100%;}
 	display:none;
 }
 .isFixed .navbar-inverse .navbar-nav>.active>a,.isFixed .navbar-inverse .navbar-nav>.active>a:focus {
-	background:#92DD03 ;
+	background:#ff9900 ;
 	color:#fff;
 }
 .isFixed .navbar.navbar-inverse.navbar-static-top a:hover {
-	background:#92DD03 ;
+	background:#ff9900 ;
 	color:#fff;
 }
 .isFixed .navbar.navbar-inverse.navbar-static-top a {
@@ -274,6 +269,20 @@ img#site-title {
 .progress .color4 .bar-width{
   background: #db3615;
 }
+.progress .color5,
+.progress .color5 .bar-width{
+  background: #993399;
+}
+.progress .color6,
+.progress .color6 .bar-width{
+  background: #660033;
+}
+
+
+.progress .color7,
+.progress .color7 .bar-width{
+  background: #00802b;
+}
 
 .progress, 
 .progress-bar {
@@ -335,6 +344,19 @@ img#site-title {
 .progress .color4 span:before{
   border-color: #db3615 transparent transparent transparent;
 }
+
+.progress .color5 span:before{
+  border-color: #993399 transparent transparent transparent;
+}
+
+.progress .color6 span:before{
+  border-color: #660033 transparent transparent transparent;
+}
+
+.progress .color7 span:before{
+  border-color: #00802b transparent transparent transparent;
+}
+
 .specialties img {
 	margin-top:30px;
 	margin-bottom:50px;
@@ -689,7 +711,7 @@ box-shadow: 10px 12px 10px -6px rgba(0,0,0,0.75);
 }
 
 .contact-info i {
-	color:#92DD03;	
+	color:#ff9900;	
 }
 
 
@@ -780,11 +802,7 @@ textarea.contact {
 }
 /* --- Footer --- */
 .footer {
-	background: rgb(255,244,50); /* Old browsers */
-background: -moz-linear-gradient(left, rgba(255,244,50,1) 0%, rgba(242,145,0,1) 22%, rgba(255,0,0,1) 50%, rgba(242,145,0,1) 78%, rgba(252,235,0,1) 98%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, rgba(255,244,50,1) 0%,rgba(242,145,0,1) 22%,rgba(255,0,0,1) 50%,rgba(242,145,0,1) 78%,rgba(252,235,0,1) 98%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, rgba(255,244,50,1) 0%,rgba(242,145,0,1) 22%,rgba(255,0,0,1) 50%,rgba(242,145,0,1) 78%,rgba(252,235,0,1) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff432', endColorstr='#fceb00',GradientType=1 ); /* IE6-9 */
+	background: #ff9900;
 	margin-top:100px;
 	position:relative;
 	margin-right:-15px;
@@ -871,11 +889,11 @@ blockquote:before {
 	position:absolute;
 	left:10px;
 	top:-30px;
-	color:#92DD03 ;
+	color:#ff9900 ;
 	font-family:Georgia;
 }
 blockquote cite {
-	color:#92DD03 ;
+	color:#ff9900 ;
 	font-size:14px;
 	display:block;
 	margin-top:5px;
@@ -902,7 +920,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 box-shadow: 0px 15px 11px -11px rgba(0,0,0,0.75);
 }
 .about_notes{
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.8;
     word-spacing: 5px;
 }
@@ -927,11 +945,8 @@ box-shadow: 0px 15px 11px -11px rgba(0,0,0,0.75);
   transform: scale(1.1);
 }
 
-.photography_description{
-    color: #862d86;
-}
 .caption{
-	background-color: #b3b3ff;
+	background-color: #ffc266;
 }
 .caption h5{
 	color:red;
@@ -946,4 +961,43 @@ box-shadow: 0px 15px 11px -11px rgba(0,0,0,0.75);
 	font-size: 13px;
 	font-weight: bold;
 }
+
+.blue_shadow{
+    background-color: #ff9900;
+    opacity: .7;
+}
+.counter-box {
+  color: white;
+  text-align: center;
+}
+
+.counter-ico {
+  margin-bottom: 1rem;
+}
+
+.counter-ico .ico-circle {
+  height: 60px;
+  width: 60px;
+  line-height: 1.8;
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+
+.counter-num .counter {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.project{
+    display: block;
+    padding-top: 15px;
+    box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 15px -4px rgba(31, 73, 125, 0.8);
+}
+
+
+
+
+
+
+
+
 
