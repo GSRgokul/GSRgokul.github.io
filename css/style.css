@@ -840,6 +840,7 @@ textarea.contact {
 	color:#fff;
 	width:42px !important;
 	height:42px !important;
+	display: block;
 }
 .footer ul li a i {
 	line-height:45px;
