@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+		<link rel="icon" type="image/icon" href="img/dwnldapp2.png"/>
+			<link rel="stylesheet" href="css/login.css">
+    </head>
+	<style>
+			body{
+		margin: 0;
+		padding: 0;
+		font-family:sans-serif;
+		background: url(img/img2.jpg);
+		background-size: cover;
+        background-repeat: repeat-x;
+        background-attachment: fixed;
+	}
+	</style>
+	
+<body>
+
+	<div class="login-box">
+	<h1>EG Register</h1>
+	
+	<form action="" method="POST" enctype="multipart/form-data">
+	
+	<div class="textbox">
+	<i class="fa fa-user"></i>
+	<input type="text" placeholder="Enter your Full Name" name="id" value="" pattern="[a-zA-z]+[0-9]*" required>
+	</div>
+	
+	<div class="textbox">
+	<i class="fa fa-phone"></i>
+	<input type="tel" placeholder="Enter your phone number" name="id" value="" pattern="[0][1][1-9][0-9]{8}" title="Enter your valid GP / airtel / banglalink / robi / teletalk number" required>
+	</div>
+	
+	<div class="textbox">
+	<i class="fa fa-lock"></i>
+	<input type="password" placeholder="Choose your Password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,}" title="Must contain at least one number & one uppercase & lowercase letter, & at least 4 or more characters" id="myInput" required>
+	</div>
+	<input type="checkbox" onclick="myFunction()">Show Password
+	
+	<br><br>
+	<input class="btn" type="submit" value="Register">
+	
+	
+	<br><br><br>
+	
+	</form>
+	
+	
+	
+	
+	
+	<div class="register_link">
+	Already registerd? 
+	<a href="login.html">Click here</a> to Login.
+	</div>
+	
+	
+	
+	<div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+	
+</body>
+</html>

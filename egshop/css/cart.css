@@ -1,0 +1,254 @@
+body{
+	margin:0;
+	}
+#upper_nav{
+	color:black;
+	font-size:16px;
+	display:block;
+	font-family:cursive;
+	border-right:1px dotted black;
+}
+#upper_nav:hover{
+	color:red;
+	text-decoration:none;
+	background-color:white;
+	transition:0.3s;
+}
+
+.care{
+	color:tomato;
+	font-size:21px;
+}
+.col-md-3 a{
+	color:white;
+}
+
+.col-md-3 a:hover{
+	color:white;
+}
+.container-fluid{
+	margin:30px 0px;
+}
+#upper_nav2{
+	color:black;
+	font-size:18px;
+	display:block;
+	font-family:arial;
+	border-right:1px solid white;
+	font-weight:bold;
+}
+#upper_nav2:hover{
+	text-decoration:none;
+	background-color:#003300;
+	color:white;
+	transition:0.3s;
+}
+#upper_nav2 i{
+	font-size:30px;
+	padding-left:6px;
+	padding-bottom:5px;
+}
+.dropbtn {
+  background-color: #ffad33;
+  color: black;
+  padding: 16px 30px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  font-weight:bold;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float:left;
+  z-index:10;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100000;
+  border:2px solid red;
+  width:223px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-size:16px;
+  display: block;
+  text-align:center;
+  width:220px;
+  border:1px solid red;
+}
+
+.dropdown-content a:hover{
+	background-color: #009c89;
+	text-decoration:none;
+	color:white;
+	}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.dropdown:hover .dropbtn{
+  background-color: #003300;
+  color:white;
+}
+.shopping_cart{
+	text-align:center;
+	font-weight:bold;
+	font-size:30px;
+	margin-top:15px;
+}
+.cart_details{
+	font-size:16px;
+	color:#000080;
+	background-color:#d9edf7;
+	padding:15px 20px;
+	display:block;
+}
+.cart_details span{
+	font-size:20px;
+	padding-right:7px;
+}
+
+.cart_details a{
+	display:inline-block;
+	padding:3px 5px;
+	border-radius:3px;
+	background-color:blue;
+	color:white;
+}
+.cart_details a:hover{
+	text-decoration:none;
+	background-color:#4d4dff;
+	color:white;
+}
+table {
+  width: 50%;
+  margin-bottom:30px;
+}
+
+td, th {
+  border: 1px solid black;
+  height:50px;
+ 
+}
+
+tr:nth-child(odd) {
+  background-color: #e6e6e6;
+}
+
+.clear{
+	display:block;
+	background-color:red;
+	color:white;
+	font-size:18px;
+	padding:10px 30px;
+	margin-right:10px;
+	float:left;
+	text-align:center;
+	border-radius:5px;
+	font-weight:bold;
+}
+.clear:hover{
+	background-color:#cc0000;
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+}
+.shopping{
+	display:block;
+	background-color:green;
+	color:white;
+	font-size:18px;
+	padding:10px 30px;
+	float:left;
+	text-align:center;
+	border-radius:5px;
+	font-weight:bold;
+}
+.shopping:hover{
+	background-color:#006600;
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer_1st{
+	background-color:#2e2e54;
+	width:100%;
+	height:auto;
+	padding:20px 0px;
+}
+
+
+.footer_1st_daraz_logo{
+	height:120px;
+	width:auto;
+	float:left;
+	margin-left:20px;
+	padding-top:20px;
+}
+.footer_1st_daraz_logo p{
+	color:white;
+}
+.footer_middle{
+	padding:20px 0px;
+	background-color:white;
+}
+.footer_middle_header{
+	font-size:20px;
+}
+.footer_middle_footer{
+	font-size:20px;
+	float:left;
+}
+.footer_last{
+	padding:20px 0px;
+	background-color:#f1f1f1;
+}
+.footer_last_header{
+	font-size:18px;
+}
+.footer_subheader{
+	font-size:14px;
+	text-decoration:underline;
+}
+.footer_details{
+	font-size:13px;
+	line-height:1.5;
+}
+
+
+
+
+

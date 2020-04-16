@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Profile</title>
+	<link rel="stylesheet" href="css/profile.css">
+		<link rel="icon" type="image/icon" href="img/dwnldapp2.png"/>
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	
+	</head>
+<body>
+
+<div class="wrapper">
+
+			<!-- Side Navbar -->
+			
+    <div class="sidebar">
+	
+			<center><img src="img/site2.png"></center>
+	
+        <h2>My Profile</h2>
+        <ul>
+            <li><a href="home.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="#" onclick="document.getElementById('id01').style.display='block'"><i class="fas fa-image"></i>Update Picture</a></li>
+            <li><a href="#" onclick="document.getElementById('id02').style.display='block'"><i class="fas fa-lock"></i>Update Password</a></li>
+            <li><a href="#" onclick="document.getElementById('id03').style.display='block'"><i class="fas fa-user"></i>Update Username</a></li>
+            <li><a href="#" onclick="document.getElementById('id04').style.display='block'"><i class="fas fa-phone"></i>Update Phone No</a></li>
+            <li><a href="#" onclick="document.getElementById('id05').style.display='block'"><i class="fas fa-address-book"></i>Update Adress</a></li>
+            <li><a href="home.html"><i class="fas fa-sign-out-alt"></i>Log out</a></li>
+        </ul> 
+    </div>
+	
+		<!-- Main content -->
+	
+    <div class="main_content">
+	
+	       <div class="card">
+        <div class="card-header">
+            <img src="img/client/gokul.jpg" alt="Profile Image" class="profile-img">
+        </div>
+        <div class="card-body">
+			<br>
+			
+			
+			<div class="box">
+				<div class="left_box">
+					<i class="fas fa-user"></i>
+					<p>User Name</p>
+				</div>
+				
+				<div class="right_box">
+					<p class="full-name">Gokul Saha</p>
+				</div>
+				
+			</div>
+			
+			<div class="box">
+				<div class="left_box">
+					<f class="phone"><i class="fas fa-phone"></i></f>
+					<p>Contact</p>
+				</div>
+				
+				<div class="right_box">
+					<p class="full-name">+88 01682210637</p>
+				</div>
+				
+			</div>
+			
+			<div class="box">
+				<div class="left_box">
+					<i class="fas fa-map-marker"></i>
+					<p>Country</p>
+				</div>
+				
+				<div class="right_box">
+					<p class="full-name">Bangladesh</p>
+				</div>
+				
+			</div>
+			
+			<div class="box">
+				<div class="left_box">
+					<i class="fas fa-location-arrow"></i>
+					<p>Address</p>
+				</div>
+				
+				<div class="right_box">
+					<p class="full-name">2/3 West Malibag, Dhaka - 1213</p>
+				</div>
+				
+			</div>
+			
+           
+        </div>
+    </div>
+	
+    </div>
+</div>
+	
+	
+	
+	
+		<!-- Modal Form for picture -->
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+<br>
+    <div class="container">
+      <label for="phone"><b>Your Phone Number</b></label>
+      <input type="text" placeholder="Enter your Phone Number" name="phone" value="" pattern="[0][1][1-9][0-9]{8}" title="Enter your valid GP / airtel / banglalink / robi / teletalk number"  required>
+	  <br><br>
+
+      <label for="img"><b>Select Picture</b></label>
+      <input type="file" id="img" name="img" accept="image/*" required>
+        <br><br>
+      <button type="submit">Update Photo</button>
+	  <br><br>
+    </div>
+
+  </form>
+</div>
+
+		<!-- Modal Form for Password -->
+
+<div id="id02" class="modal">
+  
+  <form class="modal-content animate" action="" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+<br>
+    <div class="container">
+      <label for="phone"><b>Your Phone Number</b></label>
+      <input type="text" placeholder="Enter your Phone Number" name="phone" value="" pattern="[0][1][1-9][0-9]{8}" title="Enter your valid GP / airtel / banglalink / robi / teletalk number"  required>
+	  <br><br>
+
+      <label for="psw"><b>Select New Password</b></label>
+     <input type="password" placeholder="Enter Password" name="psw" id="myInput" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,}" title="Must contain at least one number & one uppercase & lowercase letter, & at least 4 or more characters"  required>
+
+	 <input type="checkbox" onclick="myFunction()">Show Password
+        <br><br>
+      <button type="submit">Update Password</button>
+	  <br><br>
+    </div>
+
+  </form>
+</div>
+
+		<!-- Modal Form for Username -->
+
+<div id="id03" class="modal">
+  
+  <form class="modal-content animate" action="" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+<br>
+    <div class="container">
+      <label for="phone"><b>Your Phone Number</b></label>
+      <input type="text" placeholder="Enter your Phone Number" name="phone" value="" pattern="[0][1][1-9][0-9]{8}" title="Enter your valid GP / airtel / banglalink / robi / teletalk number"  required>
+	  <br><br>
+
+      <label for="username"><b>Select New User Name</b></label>
+     <input type="text" placeholder="Enter New Username" name="username" required>
+        <br><br>
+      <button type="submit">Update User Name</button>
+	  <br><br>
+    </div>
+
+  </form>
+</div>
+	
+	
+	
+		<!-- Modal Form for Phone No -->
+
+<div id="id04" class="modal">
+  
+  <form class="modal-content animate" action="" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+<br>
+    <div class="container">
+      <label for="phone"><b>Your Phone Old Number</b></label>
+      <input type="text" placeholder="Enter your Phone Number" name="phone" value="" pattern="[0][1][1-9][0-9]{8}" title="Enter your valid GP / airtel / banglalink / robi / teletalk number"  required>
+	  <br><br>
+
+      <label for="phone2"><b>Your Phone New Number</b></label>
+      <input type="text" placeholder="Enter your Phone Number" name="phone2" value="" pattern="[0][1][1-9][0-9]{8}" title="Enter your valid GP / airtel / banglalink / robi / teletalk number"  required>
+        <br><br>
+      <button type="submit">Update Phone No</button>
+	  <br><br>
+    </div>
+
+  </form>
+</div>
+	
+		
+	
+	
+		<!-- Modal Form for Address -->
+
+<div id="id05" class="modal">
+  
+  <form class="modal-content animate" action="" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id05').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+<br>
+    <div class="container">
+      <label for="phone"><b>Your Phone Number</b></label>
+      <input type="text" placeholder="Enter your Phone Number" name="phone" value="" pattern="[0][1][1-9][0-9]{8}" title="Enter your valid GP / airtel / banglalink / robi / teletalk number"  required>
+	  <br><br>
+
+      <label for="address"><b>Select Address</b></label>
+     <input type="text" placeholder="Enter Your Address" name="address" required>
+        <br><br>
+      <button type="submit">Update Address</button>
+	  <br><br>
+    </div>
+
+  </form>
+</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+<script>
+// Get the modal for picture
+var modal = document.getElementById('id01');
+
+// Get the modal for password
+var modal = document.getElementById('id02');
+
+// Get the modal for Username
+var modal = document.getElementById('id03');
+
+// Get the modal for Phone No
+var modal = document.getElementById('id04');
+
+// Get the modal for Address
+var modal = document.getElementById('id05');
+
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
+
+	
+	<!-- Password show -->
+	
+	<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</body>
+</html>
