@@ -1,0 +1,113 @@
+
+@media only screen and (max-width: 1503px) {
+	.middle-area{
+		width:80%;
+	}
+}
+
+@media only screen and (max-width: 1315px) {
+	.middle-area{
+		width:95%;
+	}
+}
+
+@media only screen and (max-width: 1108px) {
+	.middle-area{
+		width:90%;
+	}
+	.logo-area{
+		width:40%;
+	}
+	
+	.login-area{
+		width:60%;
+	}
+	.signup-right .username input{
+		width:97%;
+		float:none;
+	}
+}
+
+@media only screen and (max-width: 969px) {
+	.signup-left img{
+		height:150px;
+		width:350px;
+	}
+}
+@media only screen and (max-width: 777px) {
+	.signup-left{
+		width:80%;
+	}
+	.signup-left img{
+		width:400px;
+		height:200px;
+	}
+	.signup-right{
+		width:97%;
+	}
+}
+@media only screen and (max-width: 877px) {
+	.middle-area{
+		width:90%;
+	}
+	.logo-area{
+		width:30%;
+	}
+	
+	.login-area{
+		width:70%;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.middle-area{
+		width:100%;
+	}
+	.logo-area{
+		width:30%;
+	}
+	
+	.login-area{
+		width:70%;
+	}
+}
+
+@media only screen and (max-width: 676px) {
+	.middle-area{
+		width:95%;
+	}
+	.logo-area{
+		width:100%;
+	}
+	
+	.login-area{
+		width:100%;
+	}
+	.login-area input[type=text], .login-area input[type=password]{
+	width:100px;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.signup-right{
+		width:80%;
+	}
+}
+@media only screen and (max-width: 409px) {
+	.signup-left img{
+		width:95%;
+		height:95%;
+	}
+}
+	
+
+
+
+
+
+
+
+
+
+
+
