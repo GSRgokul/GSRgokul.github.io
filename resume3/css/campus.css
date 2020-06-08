@@ -1,4 +1,4 @@
-
+/* navbar */
 .bg-light {
     background-color: #16a085 !important;
 }
@@ -39,14 +39,6 @@
 	word-spacing:2px;
 	line-height:30px;
 }
-
-
-
-
-
-
-
-
 
 /* footer */
 footer{
@@ -124,15 +116,3 @@ footer>.container>p{
 	color:white;
 	margin-top:15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-

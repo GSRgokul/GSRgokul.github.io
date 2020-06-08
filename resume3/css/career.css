@@ -71,11 +71,34 @@
 }
 .col-md-4{
 	margin-bottom:50px;
+	text-align:center;
 }
 .col-md-4>p{
 	font-size:25px;
 	color:red;
 	text-decoration:underline;
+}
+
+.img-area{
+	margin-top:60px;
+}
+.img-area .opacity{
+	height:350px;
+	margin-top:-20px;
+	background-color: rgba(119, 119, 119, 0.7);
+}
+
+.img-area .opacity .contain{
+	text-align:center;
+}
+
+.contain p{
+	color:white;
+	font-style:italic;
+	padding:150px 10px;
+	letter-spacing:2px;
+	line-height:35px;
+	font-size:20px;
 }
 
 
@@ -155,15 +178,3 @@ footer>.container>p{
 	color:white;
 	margin-top:15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
